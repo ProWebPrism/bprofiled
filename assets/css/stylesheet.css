@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Document © 2023 ProWeb Prism */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-moz-selection{ background:#7b7d7f; color:#ffffff; text-shadow:none;}
+::selection { background:#7b7d7f; color:#ffffff; text-shadow:none;}
+*,
+*:before, *:after{-webkit-box-sizing:  border-box;-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video, textarea, input { margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline; outline:none; font-family: 'Poppins', sans-serif;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body {color:#504f50; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; overflow:hidden;}
+:root { overflow-y: scroll;}
+html.cl-loaded.menu-came-in { overflow: hidden;}
+a { text-decoration:none; transition:all 0.25s ease-out 0s;}
+a:hover { text-decoration:none; transition:all 0.25s ease-out 0s;}
+p, p span { font-family: 'Poppins', sans-serif;}
+img { border:0px;}
+ol, ul, li{ list-style: none;}
+blockquote, q { quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+* {-webkit-appearance: none;
+}::-webkit-input-placeholder {
+  color:#ffffff;
+}
+::-moz-placeholder { 
+  color:#ffffff;
+}
+:-ms-input-placeholder {
+  color:#ffffff;
+}
+:-moz-placeholder {
+  color:#ffffff;
+}
+
+section{width: 100%; float: left;}
+img{max-width: 100%;}
+
+/* -------------------------header--------------------------- */
+header.my_header { width: 100%;float: left;}
+header.my_header .brand_logo { width: 250px; position: absolute;left: 0;z-index: 1;}
+header.my_header .header_right {float: right;display: inline-block;padding: 25px 0;}
+header.my_header .header_row {justify-content: right;position: relative;}
+header.my_header .header_right .header_main ul {display: inline-block;width: auto;}
+header.my_header .header_right .header_main ul li.nav_item {display: inline-block;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link {color: #000;font-size: 17px;padding: 10px;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link:hover {color: #0a93c9;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link.btn {border: 1px solid #0a93c9;background: #0a93c9;color: #fff;padding: 10px 20px;margin: 0 0 0 10px;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link.btn:hover {color: #0a93c9;background: none;}
+
+
+/* -------------------home_banner------------------- */
+.home_banner { padding: 80px 0;position: relative;  min-height: 580px; display: flex;flex-wrap: wrap;align-items: center;}
+.home_banner .banner-bg { position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
+.home_banner .banner-bg img { height: 100%; object-fit: cover;}
+.home_banner .banner-conten {width: 60%; position: relative;margin: 0 ;text-align: left;}
+.home_banner .banner-conten h1 { font-size: 60px; color: #fff; font-weight: 700;  margin: 0 0 20px;}
+.home_banner .banner-conten p { color: #fff; font-size: 16px;}
+.abouts-wrapp { padding: 70px 0; position: relative;}
+.abouts-wrapp .abouts-left { width: 48%;}
+.abouts-wrapp .abouts-right { width: 48%;display: flex; flex-wrap: wrap; align-items: center;}
+.abouts-wrapp .row { justify-content: space-between;}
+h2.title-common {font-size: 38px;font-weight: 600;color: #0a93c9;margin: 0 0 16px;position: relative;}
+h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a93c9; display: block; position: absolute; left: 0; bottom: 0;}
+.abouts-wrapp h3 { font-size: 24px; font-weight: 600; margin: 0 0 14px;}
+.abouts-wrapp p {font-size: 16px; line-height: 24px;}
+.read-more-btn { border: 1px solid #0a93c9; background: #fff; color: #0a93c9;  padding: 10px 20px; display: block; width: fit-content; margin: 16px 0 0; border-radius: 3px; font-size: 14px; font-weight: 600;}
+.read-more-btn:hover {background: #0a93c9; color: #ffff;}
+.services-wrapp { padding: 53px 0; background: rgb(232 232 232 / 20%); position: relative;}
+.services-wrapp .service-box { width: 31.33%; margin: 0 3% 3% 0; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 10px 5px 5px rgb(0 0 0 / 10%);}
+.services-wrapp .service-box:nth-child(3n) { margin-right: 0;}
+.services-wrapp .service-box .service-icon { width: 80px; margin: 0 0 20px;}
+.services-wrapp .service-box  h2 { font-size: 26px; font-weight: 600; margin: 0 0 12px; color: #0a93c9;}
+.services-wrapp .service-box p { font-size: 16px; margin: 0  0 19px; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical;}
+.services-wrapp h2.title-common { text-align: center; width: fit-content; margin: 0 0 52px;}
+.contact-wrapp { padding: 90px 0; text-align: center;}
+.contact-wrapp h1 { font-size: 60px; font-weight: 600; width: 100%; text-align: center; color: #000;margin: 0 0 20px;}
+.contact-wrapp h1 span { display: block;}
+.contact-wrapp h1 span span.color { display: inline; color: #0a93c9;}
+.contact-wrapp .contact-btn { color: #0a93c9; font-size: 18px; font-weight: 600; margin: 0 auto; text-decoration: underline;}
+.contact-wrapp .contact-btn:hover { color: #000;}
+footer {width: 100%; float: left; background: #0a93c9; padding: 70px 0;}
+footer .ftr-nav { width: 100%; display: flex; justify-content: center; margin: 0 0 30px;}
+footer .ftr-nav ul { width: auto; display: inline-block;}
+footer .ftr-nav ul li { display: inline-block;}
+footer .ftr-nav ul li a { font-size: 18px; color: #fff; padding: 5px 12px;}
+footer .ftr-nav ul li a:hover { color: #000;}
+footer .ftr-brand { width: 100%;  margin: 0 0 20px;}
+footer .ftr-brand .ftr-logo { width: 190px; margin: 0 auto;}
+footer .ftr-address { width: 100%; display: inline-block;}
+footer .ftr-address ul.social-icons { display: inline-block; float: left;}
+footer .ftr-address ul.social-icons li {  display: inline-block; margin: 0 10px 0 0;}
+footer .ftr-address ul.social-icons li img { width: 20px; height: 20px; object-fit: contain;}
+footer .ftr-address ul {width: fit-content;}
+footer .ftr-address ul li { color: #fff;}
+footer .ftr-address ul.ph-no { width: auto; float: right; display: inline-block;}
+footer .ftr-address ul.ph-no li a {color: #ffff;}
+footer .ftr-address ul.ph-no li a:hover { color: #000;}
+footer .ftr-address ul.address {position: absolute; left: 50%; transform: translateX(-50%);}
