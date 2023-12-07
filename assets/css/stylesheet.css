@@ -75,7 +75,7 @@ h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a9
 
 
 /* -----------service-sect------------ */
-.services-wrapp { padding: 53px 0; background: rgb(232 232 232 / 20%); position: relative;}
+.services-wrapp { padding: 53px 0 70px; background: rgb(232 232 232 / 20%); position: relative;}
 .services-wrapp .service-box { width: 31.33%; margin: 0 3% 3% 0; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 10px 5px 5px rgb(0 0 0 / 10%);}
 .services-wrapp .service-box:nth-child(3n) { margin-right: 0;}
 .services-wrapp .service-box .service-icon { width: 80px; margin: 0 0 20px;}
@@ -85,7 +85,7 @@ h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a9
 
 
 /* ---------contact-sect--------- */
-.contact-wrapp { padding: 90px 0; text-align: center;}
+.contact-wrapp { padding: 90px 0; text-align: center; background: url(../images/conatct-section-bg.jpg) no-repeat center; background-size: cover; background-attachment: fixed;}
 .contact-wrapp h1 { font-size: 60px; font-weight: 600; width: 100%; text-align: center; color: #000;margin: 0 0 20px;}
 .contact-wrapp h1 span { display: block;}
 .contact-wrapp h1 span span.color { display: inline; color: #0a93c9;}
@@ -95,7 +95,7 @@ h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a9
 
 /* ------footer-------- */
 footer {width: 100%; float: left; background: #0a93c9; padding: 70px 0;}
-footer .ftr-logo { width: 250px;}
+footer .ftr-logo { width: 195px;}
 footer .ftr-links ul li { font-size: 16px; margin: 0  0 8px;}
 footer h3 { font-size: 20px; color: #fff; font-weight: 600; margin: 0 0 13px;}
 footer .ftr-links ul li a { color: #fff;  display: block;}
@@ -119,3 +119,12 @@ footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
 .services-wrapp.slider{padding: 53px 0 84px;}
 .services-wrapp.slider .service-box { width: 100%; margin: 0;}
 .services-wrapp.slider .slider-col { padding: 0 15px 10px;}
+
+
+.service-wrapp {padding: 108px 0 70px;position: relative;}
+.service-wrapp .service-box {width: 31.33%; margin: 0 3% 3% 0; position: relative; box-shadow: 10px 5px 5px rgb(0 0 0 / 10%); overflow: hidden; border-radius: 8px;}
+.service-wrapp .service-box:nth-child(3n) { margin-right: 0;}
+.service-wrapp .service-box .service-name { position: absolute; width: 100%; bottom: 40px; left: 0; padding: 0 10px; text-align: center;}
+.service-wrapp .service-box .service-name h2 { font-size: 28px; font-weight: 700; color: #fff;}
+.service-wrapp .service-box img { width: 100%; height: 100%; object-fit: cover; transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s;-moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s;}
+.service-wrapp .service-box:hover img {transform: scale(1.08); transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s; -moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s; filter: grayscale(100%);}
