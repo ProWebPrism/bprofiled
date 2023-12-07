@@ -83,20 +83,15 @@ h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a9
 .contact-wrapp .contact-btn { color: #0a93c9; font-size: 18px; font-weight: 600; margin: 0 auto; text-decoration: underline;}
 .contact-wrapp .contact-btn:hover { color: #000;}
 footer {width: 100%; float: left; background: #0a93c9; padding: 70px 0;}
-footer .ftr-nav { width: 100%; display: flex; justify-content: center; margin: 0 0 30px;}
-footer .ftr-nav ul { width: auto; display: inline-block;}
-footer .ftr-nav ul li { display: inline-block;}
-footer .ftr-nav ul li a { font-size: 18px; color: #fff; padding: 5px 12px;}
-footer .ftr-nav ul li a:hover { color: #000;}
-footer .ftr-brand { width: 100%;  margin: 0 0 20px;}
-footer .ftr-brand .ftr-logo { width: 190px; margin: 0 auto;}
-footer .ftr-address { width: 100%; display: inline-block;}
-footer .ftr-address ul.social-icons { display: inline-block; float: left;}
-footer .ftr-address ul.social-icons li {  display: inline-block; margin: 0 10px 0 0;}
-footer .ftr-address ul.social-icons li img { width: 20px; height: 20px; object-fit: contain;}
-footer .ftr-address ul {width: fit-content;}
-footer .ftr-address ul li { color: #fff;}
-footer .ftr-address ul.ph-no { width: auto; float: right; display: inline-block;}
-footer .ftr-address ul.ph-no li a {color: #ffff;}
-footer .ftr-address ul.ph-no li a:hover { color: #000;}
-footer .ftr-address ul.address {position: absolute; left: 50%; transform: translateX(-50%);}
+footer .ftr-logo { width: 250px;}
+footer .ftr-links ul li { font-size: 16px; margin: 0  0 8px;}
+footer h3 { font-size: 20px; color: #fff; font-weight: 600; margin: 0 0 13px;}
+footer .ftr-links ul li a { color: #fff;  display: block;}
+footer .ftr-links ul li a:hover {color: #000;}
+footer ul li {color: #fff;}
+footer ul li a {color: #fff;}
+footer ul li a:hover{color: #000;}
+footer ul.ph-no {margin: 12px 0 0;}
+footer ul.social-icons {  margin: 20px 0 0;}
+footer ul.social-icons li { display: inline-block; margin: 0 10px 0 0;}
+footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
