@@ -46,10 +46,15 @@ header.my_header .header_right {float: right;display: inline-block;padding: 25px
 header.my_header .header_row {justify-content: right;position: relative;}
 header.my_header .header_right .header_main ul {display: inline-block;width: auto;}
 header.my_header .header_right .header_main ul li.nav_item {display: inline-block;}
-header.my_header .header_right .header_main ul li.nav_item a.nav_link {color: #000;font-size: 17px;padding: 10px;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link {color: #000;font-size: 17px;padding: 10px; font-weight: 600;position: relative;}
 header.my_header .header_right .header_main ul li.nav_item a.nav_link:hover {color: #0a93c9;}
 header.my_header .header_right .header_main ul li.nav_item a.nav_link.btn {border: 1px solid #0a93c9;background: #0a93c9;color: #fff;padding: 10px 20px;margin: 0 0 0 10px;}
 header.my_header .header_right .header_main ul li.nav_item a.nav_link.btn:hover {color: #0a93c9;background: none;}
+header.my_header .header_right .header_main ul li.nav_item.active a.nav_link {color: #0a93c9;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link:after { content: ""; width: 0%; height: 3px; position: absolute;  background: #0a93c9; left: 50%; transform: translateX(-50%); bottom: 4px; transition: all 0.25s ease-out 0s;}
+header.my_header .header_right .header_main ul li.nav_item.active a.nav_link:after{width: 80%;}
+header.my_header .header_right .header_main ul li.nav_item:hover a.nav_link:after{width: 80%;}
+header.my_header .header_right .header_main ul li.nav_item a.nav_link.btn::after{display: none;}
 
 
 /* -------------------home_banner------------------- */
@@ -111,7 +116,7 @@ footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
 
 
 /* --------inner-banner--------- */
-.home_banner.inner-banner {height: 300px;}
+.home_banner.inner-banner {min-height: inherit;height: 440px;}
 
 .content-wrapp { padding: 70px 0;}
 .content-wrapp p { font-size: 16px;  line-height: 24px; margin: 0 0 11px;}
@@ -128,3 +133,25 @@ footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
 .service-wrapp .service-box .service-name h2 { font-size: 28px; font-weight: 700; color: #fff;}
 .service-wrapp .service-box img { width: 100%; height: 100%; object-fit: cover; transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s;-moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s;}
 .service-wrapp .service-box:hover img {transform: scale(1.08); transition: all 0.25s ease-out 0s; -o-transition: all 0.25s ease-out 0s; -ms-transition: all 0.25s ease-out 0s; -moz-transition: all 0.25s ease-out 0s; -webkit-transition: all 0.25s ease-out 0s; filter: grayscale(100%);}
+
+
+
+
+.getin-touch {padding: 70px 0;}
+.getin-touch .getin-form-wrapp {width: 65%;display: flex;flex-wrap: wrap;margin: 0 auto;box-shadow: 0 0 7px #00000033;padding: 45px 30px 20px;border-radius: 10px;}
+.getin-touch .getin-form-wrapp .getin-col1 {position: relative;float: left;width: 50%;padding-right: 30px;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields {width: 100%;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field {width: 100%;display: block;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field input {width: 100%;float: left;color: #7e7e7e;height: 50px;font-size: 14px;padding: 12px;border-radius: 8px;border: 1px solid #cfcfcf;background: transparent;display: block;max-width: 400px;margin: 0 0 17px;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field textarea {width: 100%;float: left;color: #7e7e7e;height: 120px;font-size: 14px;padding: 12px;border-radius: 8px;border: 1px solid #cfcfcf;background: transparent;display: block;max-width: 400px;margin: 0 0 17px;resize: none;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field  button.submit-btn {border: 1px solid #0a93c9;background: #0a93c9;color: #fff; padding: 10px 20px;border-radius: 4px;cursor: pointer;transition: all 0.25s ease-out 0s;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field button.submit-btn:hover {background: none;color: #0a93c9;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field input::placeholder {color: #000;}
+.getin-touch .getin-form-wrapp .getin-col1 .text-fields .text-field textarea::placeholder {color: #000;}
+.getin-touch .getin-form-wrapp h2 {margin: 0 0 31px;}
+.getin-touch .getin-form-wrapp .getin-col2 {width: 50%;}
+.getin-touch .getin-form-wrapp .getin-col2 .map-wrapp {width: 100%;margin: 0 0 20px;}
+.getin-touch .getin-form-wrapp .getin-col2 .map-wrapp iframe {width: 100%;max-height: 275px;border-radius: 8px;}
+.getin-touch .getin-form-wrapp .getin-col2 ul li {margin: 0 0 14px;}
+.getin-touch .getin-form-wrapp .getin-col2 ul li a {color: #000;}
+.getin-touch .getin-form-wrapp .getin-col2 ul li a:hover {color: #0a93c9;}
