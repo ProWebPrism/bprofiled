@@ -55,10 +55,13 @@ header.my_header .header_right .header_main ul li.nav_item a.nav_link.btn:hover 
 /* -------------------home_banner------------------- */
 .home_banner { padding: 80px 0;position: relative;  min-height: 580px; display: flex;flex-wrap: wrap;align-items: center;}
 .home_banner .banner-bg { position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
-.home_banner .banner-bg img { height: 100%; object-fit: cover;}
+.home_banner .banner-bg img {width: 100%; height: 100%; object-fit: cover;}
 .home_banner .banner-conten {width: 60%; position: relative;margin: 0 ;text-align: left;}
 .home_banner .banner-conten h1 { font-size: 60px; color: #fff; font-weight: 700;  margin: 0 0 20px;}
 .home_banner .banner-conten p { color: #fff; font-size: 16px;}
+
+
+/* -------about-section----------- */
 .abouts-wrapp { padding: 70px 0; position: relative;}
 .abouts-wrapp .abouts-left { width: 48%;}
 .abouts-wrapp .abouts-right { width: 48%;display: flex; flex-wrap: wrap; align-items: center;}
@@ -69,6 +72,9 @@ h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a9
 .abouts-wrapp p {font-size: 16px; line-height: 24px;}
 .read-more-btn { border: 1px solid #0a93c9; background: #fff; color: #0a93c9;  padding: 10px 20px; display: block; width: fit-content; margin: 16px 0 0; border-radius: 3px; font-size: 14px; font-weight: 600;}
 .read-more-btn:hover {background: #0a93c9; color: #ffff;}
+
+
+/* -----------service-sect------------ */
 .services-wrapp { padding: 53px 0; background: rgb(232 232 232 / 20%); position: relative;}
 .services-wrapp .service-box { width: 31.33%; margin: 0 3% 3% 0; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 10px 5px 5px rgb(0 0 0 / 10%);}
 .services-wrapp .service-box:nth-child(3n) { margin-right: 0;}
@@ -76,12 +82,18 @@ h2.title-common:before { content: ""; width: 30px; height: 4px; background: #0a9
 .services-wrapp .service-box  h2 { font-size: 26px; font-weight: 600; margin: 0 0 12px; color: #0a93c9;}
 .services-wrapp .service-box p { font-size: 16px; margin: 0  0 19px; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical;}
 .services-wrapp h2.title-common { text-align: center; width: fit-content; margin: 0 0 52px;}
+
+
+/* ---------contact-sect--------- */
 .contact-wrapp { padding: 90px 0; text-align: center;}
 .contact-wrapp h1 { font-size: 60px; font-weight: 600; width: 100%; text-align: center; color: #000;margin: 0 0 20px;}
 .contact-wrapp h1 span { display: block;}
 .contact-wrapp h1 span span.color { display: inline; color: #0a93c9;}
 .contact-wrapp .contact-btn { color: #0a93c9; font-size: 18px; font-weight: 600; margin: 0 auto; text-decoration: underline;}
 .contact-wrapp .contact-btn:hover { color: #000;}
+
+
+/* ------footer-------- */
 footer {width: 100%; float: left; background: #0a93c9; padding: 70px 0;}
 footer .ftr-logo { width: 250px;}
 footer .ftr-links ul li { font-size: 16px; margin: 0  0 8px;}
@@ -95,3 +107,15 @@ footer ul.ph-no {margin: 12px 0 0;}
 footer ul.social-icons {  margin: 20px 0 0;}
 footer ul.social-icons li { display: inline-block; margin: 0 10px 0 0;}
 footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
+
+
+
+/* --------inner-banner--------- */
+.home_banner.inner-banner {height: 300px;}
+
+.content-wrapp { padding: 70px 0;}
+.content-wrapp p { font-size: 16px;  line-height: 24px; margin: 0 0 11px;}
+
+.services-wrapp.slider{padding: 53px 0 84px;}
+.services-wrapp.slider .service-box { width: 100%; margin: 0;}
+.services-wrapp.slider .slider-col { padding: 0 15px;}
