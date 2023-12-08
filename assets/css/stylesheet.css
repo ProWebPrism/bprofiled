@@ -39,6 +39,9 @@ table {border-collapse: collapse; border-spacing: 0;}
 section{width: 100%; float: left;}
 img{max-width: 100%;}
 
+
+.common-anchor{position: absolute; width: 100%; height: 100%;display: block; left: 0; top: 0;}
+
 /* -------------------------header--------------------------- */
 header.my_header { width: 100%;float: left;}
 header.my_header .brand_logo { width: 195px; position: absolute;left: 0;z-index: 1;}
@@ -175,3 +178,21 @@ footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
 .service-inner .service-inner-right .side-contacts li.phone{background: url('../images/phone-bluish-cyan-plain-icon.svg') no-repeat left center;background-size: 15px; background-position-y: 1px;}
 .service-inner .service-inner-conten { width: 100%;}
 .service-inner .service-inner-row{margin: 0;}
+
+
+.modal.show{display: block;background: rgb(0 0 0 / 50%);}
+.quote-modal .modal-content {padding: 0;overflow: hidden;}
+.quote-modal .modal-dialog {max-width: 715px;}
+.quote-modal .modal-content .modal-body {padding: 0;}
+.quote-modal .modal-content .modal-body .quote-modal-form { width: 100%; display: flex; flex-wrap: wrap;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left {width: 50%; padding: 30px;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-right {width: 50%;background: url('../images/qoute-img.jpg') no-repeat center; background-size: cover;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields { width: 100%; display: flex; flex-wrap: wrap;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field { width: 100%;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field input {width: 100%;float: left; color: #7e7e7e; height: 50px; font-size: 14px;padding: 12px; border-radius: 8px; border: 1px solid #cfcfcf; background: transparent; display: block; max-width: 400px; margin: 0 0 17px;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field textarea {width: 100%;float: left;color: #7e7e7e; height: 120px; font-size: 14px; padding: 12px; border-radius: 8px; border: 1px solid #cfcfcf; background: transparent; display: block; max-width: 400px; margin: 0 0 17px; resize: none;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field input::placeholder { color: #000;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field textarea::placeholder { color: #000;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field button.submit-btn { border: 1px solid #0a93c9; background: #0a93c9; color: #fff; padding: 10px 20px; border-radius: 4px; cursor: pointer; transition: all 0.25s ease-out 0s;}
+.quote-modal .modal-content .modal-body .quote-modal-form .quote-modal-left .text-fields .text-field button.submit-btn:hover { color: #0a93c9; background: none;}
+.quote-modal .modal-content .modal-body button.btn-close {position: absolute;right: 0;top: 0;width: 30px;height: 30px; display: flex; align-items: center; justify-content: center; color: #fff; background: #0a93c9; border: 1px solid #0a93c9;outline: none; box-shadow: none; cursor: pointer;}

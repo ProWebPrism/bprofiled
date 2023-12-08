@@ -35,7 +35,7 @@
                                 <a href="contact-us.html" class="nav_link">Contact Us</a>
                             </li>
                             <li class="nav_item">
-                                <a href="" class="nav_link btn">Get a Quote</a>
+                                <a class="nav_link btn" id="quote-form">Get a Quote</a>
                             </li>
                         </ul>
                     </div>
@@ -204,6 +204,41 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal fade quote-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close">x</button>
+                <div class="quote-modal-form">
+                    <div class="quote-modal-left">
+                        <h2 class="title-common">Get a quote</h2>
+                        <form action="">
+                            <div class="text-fields">
+                                <div class="text-field">
+                                    <input type="text" name="" id="" placeholder="Name">
+                                </div>
+                                <div class="text-field">
+                                    <input type="text" name="" id="" placeholder="Email">
+                                </div>
+                                <div class="text-field">
+                                    <input type="text" name="" id="" placeholder="Phone Number">
+                                </div>
+                                <div class="text-field">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Your enquiry"></textarea>
+                                </div>
+                                <div class="text-field">
+                                    <button class="submit-btn">Send a request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="quote-modal-right"></div>
+                </div>
+            </div>            
+          </div>
+        </div>
+      </div>
 
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/jquery-3.7.1.min.js"></script>

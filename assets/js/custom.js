@@ -1,3 +1,6 @@
+
+
+
 if ($.fn.slick) {
     $('.service-slider').slick({
         dots: false,
@@ -61,3 +64,15 @@ if ($.fn.slick) {
     ]
     });
 }
+
+
+
+$('#quote-form').on('click', function(e) {
+    $('.quote-modal').addClass("show");
+    e.preventDefault();
+  });
+
+  $('.btn-close').on('click', function(e) {
+    $('.quote-modal').removeClass("show");
+    e.preventDefault();
+  });
