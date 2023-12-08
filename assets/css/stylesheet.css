@@ -41,7 +41,8 @@ img{max-width: 100%;}
 
 /* -------------------------header--------------------------- */
 header.my_header { width: 100%;float: left;}
-header.my_header .brand_logo { width: 250px; position: absolute;left: 0;z-index: 1;}
+header.my_header .brand_logo { width: 195px; position: absolute;left: 0;z-index: 1;}
+header.my_header .brand_logo img {box-shadow: 0 8px 5px rgb(0 0 0 / 30%);}
 header.my_header .header_right {float: right;display: inline-block;padding: 25px 0;}
 header.my_header .header_row {justify-content: right;position: relative;}
 header.my_header .header_right .header_main ul {display: inline-block;width: auto;}
@@ -155,3 +156,22 @@ footer ul.social-icons li img {width: 20px; height: 20px; object-fit: contain;}
 .getin-touch .getin-form-wrapp .getin-col2 ul li {margin: 0 0 14px;}
 .getin-touch .getin-form-wrapp .getin-col2 ul li a {color: #000;}
 .getin-touch .getin-form-wrapp .getin-col2 ul li a:hover {color: #0a93c9;}
+
+
+
+.service-inner {padding: 70px 0;}
+.service-inner h2.title-common { margin: 0 0 30px;}
+.service-inner .service-inner-right { width: 40%;}
+.service-inner .service-inner-left {  width: 60%; padding: 0 55px 0 0;}
+.service-inner .service-inner-left .service-inner-img { margin: 0 0 23px;}
+.service-inner  p { font-size: 16px;  line-height: 24px;}
+.service-inner .service-inner-right .side-module {width: 100%;margin: 0 0 30px;}
+.service-inner .service-inner-right .side-module h3 { font-size: 24px;font-weight: 600; margin: 0 0 14px;}
+.service-inner .service-inner-right .side-module li {font-size: 16px; line-height: 24px;  padding: 15px 0 15px 25px; border-bottom: 1px solid #0a93c9;background: url('../images/list-icon.png') no-repeat left center;}
+.service-inner .service-inner-right .side-contacts li {font-size: 16px;line-height: 24px; padding: 0 0 0 25px; margin: 0 0 16px;}
+.service-inner .service-inner-right .side-contacts li a { color: #000;}
+.service-inner .service-inner-right .side-contacts li a:hover {color: #0a93c9;}
+.service-inner .service-inner-right .side-contacts li.mail{background: url('../images/mail-bluish-cyan-plain-icon.svg') no-repeat left center; background-size: 15px; background-position-y: 1px;}
+.service-inner .service-inner-right .side-contacts li.phone{background: url('../images/phone-bluish-cyan-plain-icon.svg') no-repeat left center;background-size: 15px; background-position-y: 1px;}
+.service-inner .service-inner-conten { width: 100%;}
+.service-inner .service-inner-row{margin: 0;}
